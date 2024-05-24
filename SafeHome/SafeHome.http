@@ -1,0 +1,6 @@
+@SafeHome_HostAddress = http://localhost:5121
+
+GET {{SafeHome_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
