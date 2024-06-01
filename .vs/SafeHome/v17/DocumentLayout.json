@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D53A03C4-5F6E-40C8-A74F-9BCB13FD8AD7}|SafeHome\\SafeHome.csproj|c:\\users\\artur\\source\\repos\\arturhebraga\\safehome.api\\safehome\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D53A03C4-5F6E-40C8-A74F-9BCB13FD8AD7}|SafeHome\\SafeHome.csproj|solutionrelative:safehome\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D53A03C4-5F6E-40C8-A74F-9BCB13FD8AD7}|SafeHome\\SafeHome.csproj|c:\\users\\artur\\source\\repos\\arturhebraga\\safehome.api\\safehome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D53A03C4-5F6E-40C8-A74F-9BCB13FD8AD7}|SafeHome\\SafeHome.csproj|solutionrelative:safehome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SafeHome\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,15 +31,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\Program.cs",
+              "RelativeDocumentMoniker": "SafeHome\\Program.cs",
+              "ToolTip": "C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\Program.cs",
+              "RelativeToolTip": "SafeHome\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T01:48:59.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "SafeHome\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "SafeHome\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T23:24:12.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T23:24:12.216Z"
             }
           ]
         }
