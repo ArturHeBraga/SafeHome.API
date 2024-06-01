@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "viF3522JnDN0XJaAYsLSi+HH8kI9H7Rjq/+pxp/23LAcLk3esvuS+V/AfBh0YE8/TPvk3hm6rhrFTFnwqRPrOA==",
+  "dgSpecHash": "Z8OmG3WXSTwqYn4YNvLjEtBiHR0DJJuppnUrkbhH+AEB8dx9Md13Ne2yrybIlNUc/Bct56TkaxDngjMV3ZCMcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\artur\\Source\\Repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\SafeHome.csproj",
+  "projectFilePath": "C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\SafeHome.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artur\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\artur\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
