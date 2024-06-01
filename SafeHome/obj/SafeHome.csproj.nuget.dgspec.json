@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\artur\\source\\repos\\SafeHome\\SafeHome\\SafeHome.csproj": {}
+    "C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\SafeHome.csproj": {}
   },
   "projects": {
-    "C:\\Users\\artur\\source\\repos\\SafeHome\\SafeHome\\SafeHome.csproj": {
+    "C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\SafeHome.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\artur\\source\\repos\\SafeHome\\SafeHome\\SafeHome.csproj",
+        "projectUniqueName": "C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\SafeHome.csproj",
         "projectName": "SafeHome",
-        "projectPath": "C:\\Users\\artur\\source\\repos\\SafeHome\\SafeHome\\SafeHome.csproj",
+        "projectPath": "C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\SafeHome.csproj",
         "packagesPath": "C:\\Users\\artur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\artur\\source\\repos\\SafeHome\\SafeHome\\obj\\",
+        "outputPath": "C:\\Users\\artur\\source\\repos\\ArturHeBraga\\SafeHome.API\\SafeHome\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
