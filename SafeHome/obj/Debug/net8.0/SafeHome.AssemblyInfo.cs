@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SafeHome")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4433c9d1c45836a2f955c1c754b5f3130717f1e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00c760be3e3259ecf2ec1c753df79f0333463ee1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SafeHome")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SafeHome")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
