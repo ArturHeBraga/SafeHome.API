@@ -76,3 +76,5 @@ C:\Users\artur\source\repos\ArturHeBraga\SafeHome.API\SafeHome\obj\Debug\net8.0\
 C:\Users\artur\source\repos\ArturHeBraga\SafeHome.API\SafeHome\obj\Debug\net8.0\SafeHome.pdb
 C:\Users\artur\source\repos\ArturHeBraga\SafeHome.API\SafeHome\obj\Debug\net8.0\SafeHome.genruntimeconfig.cache
 C:\Users\artur\source\repos\ArturHeBraga\SafeHome.API\SafeHome\obj\Debug\net8.0\ref\SafeHome.dll
+C:\Users\artur\Source\Repos\ArturHeBraga\SafeHome.API\SafeHome\bin\Debug\net8.0\AspNetCore.Identity.MongoDbCore.dll
+C:\Users\artur\Source\Repos\ArturHeBraga\SafeHome.API\SafeHome\bin\Debug\net8.0\MongoDbGenericRepository.dll
