@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SafeHome",
+    "\\SafeHome\\bin",
+    "\\SafeHome\\Controllers",
+    "\\SafeHome\\Data",
+    "\\SafeHome\\Entities",
+    "\\SafeHome\\Models",
+    "\\SafeHome\\Properties",
+    "\\SafeHome\\ViewModels"
   ],
-  "SelectedNode": "\\SafeHome.sln",
+  "SelectedNode": "\\SafeHome\\Properties\\launchSettings.json",
   "PreviewInSolutionExplorer": false
 }
