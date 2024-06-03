@@ -1,13 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\SafeHome",
-    "\\SafeHome\\Controllers",
-    "\\SafeHome\\Data",
-    "\\SafeHome\\Entities",
-    "\\SafeHome\\Models",
-    "\\SafeHome\\ViewModels"
+    ""
   ],
-  "SelectedNode": "\\SafeHome\\SafeHome.csproj",
+  "SelectedNode": "\\SafeHome.sln",
   "PreviewInSolutionExplorer": false
 }
