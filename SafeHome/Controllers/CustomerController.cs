@@ -14,7 +14,7 @@ namespace SafeHome.Controllers
 
         public CustomerController(MongoDbService mongoDbService)
         {
-            _customers = mongoDbService.Database.GetCollection<Customer>("Customer");
+            _customers = mongoDbService.Database.GetCollection<Customer>("customer");
         }
 
         [HttpGet]
