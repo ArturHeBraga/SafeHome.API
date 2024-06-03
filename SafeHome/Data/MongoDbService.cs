@@ -1,34 +1,30 @@
-﻿using MongoDB.Driver;
-using Microsoft.Extensions.Configuration;
+﻿using MongoDB.Bson;
+using MongoDB.Driver;
 
 namespace SafeHome.Data
 {
     public class MongoDbService
     {
-        private readonly IConfiguration _configuration;
-        private readonly IMongoDatabase _database;
+        public IMongoDatabase Database { get; }
 
         public MongoDbService(IConfiguration configuration)
         {
-            _configuration = configuration;
-
-            var connectionString = _configuration.GetConnectionString("DbConnection");
-            var databaseName = _configuration["ConnectionStrings:DatabaseName"];
-
-            if (string.IsNullOrEmpty(connectionString))
-            {
-                throw new ArgumentNullException(nameof(connectionString), "Connection string cannot be null or empty");
-            }
-
-            if (string.IsNullOrEmpty(databaseName))
-            {
-                throw new ArgumentNullException(nameof(databaseName), "Database name cannot be null or empty");
-            }
-
+            var connectionString = configuration.GetConnectionString("DbConnection");
             var mongoClient = new MongoClient(connectionString);
-            _database = mongoClient.GetDatabase(databaseName);
+            Database = mongoClient.GetDatabase("user");
         }
 
-        public IMongoDatabase Database => _database;
+        public void TestConnection()
+        {
+            try
+            {
+                var result = Database.RunCommand((Command<BsonDocument>)"{ping:1}");
+                Console.WriteLine("MongoDB connection successful.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"MongoDB connection error: {ex.Message}");
+            }
+        }
     }
 }

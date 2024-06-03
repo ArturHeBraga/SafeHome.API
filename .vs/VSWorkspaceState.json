@@ -10,6 +10,6 @@
     "\\SafeHome\\Properties",
     "\\SafeHome\\ViewModels"
   ],
-  "SelectedNode": "\\SafeHome\\Properties\\launchSettings.json",
+  "SelectedNode": "\\SafeHome\\Controllers\\CustomerController.cs",
   "PreviewInSolutionExplorer": false
 }
