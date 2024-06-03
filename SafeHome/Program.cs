@@ -4,6 +4,7 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configuração dos serviços
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -12,11 +13,25 @@ builder.Services.AddSwaggerGen(c =>
 });
 builder.Services.AddSingleton<MongoDbService>();
 
+// Configuração do CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
 var app = builder.Build();
 
+// Testando a conexão com o MongoDB
 var mongoDbService = app.Services.GetRequiredService<MongoDbService>();
 mongoDbService.TestConnection();
 
+// Configuração do middleware
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
@@ -24,6 +39,12 @@ app.UseSwaggerUI(c =>
 });
 
 app.UseHttpsRedirection();
+
+// Ativando o CORS
+app.UseCors("AllowAll");
+
 app.UseAuthorization();
+
 app.MapControllers();
+
 app.Run();
